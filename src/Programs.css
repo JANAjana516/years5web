@@ -1,0 +1,292 @@
+.part1{
+    margin-left: 100px;
+    margin-top: -120px;
+}
+.br{
+    width: 500px;
+    border-top: 2px solid rgb(54, 50, 50) ;
+}
+.p{
+    color:  rgb(31, 119, 182);
+    font-size: 1.1rem;
+    margin-right: 30px;
+    
+}
+.contain{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 10px;
+}
+label{
+    color:  rgb(31, 119, 182);
+    font-size: 1.2rem;
+    margin-top: 50px;
+    font-weight: bold;
+  
+    
+}
+.input{
+    width: 300px;
+    height: 25px;
+    background-color: #50DCCA; 
+    border: 0.1px solid black;
+    border-radius: 3px;
+    display: block;
+    margin-bottom: 30px;
+    
+}
+.input:focus{
+    background-color: whitesmoke;
+    font-size: 20px;
+}
+
+
+.search{
+    margin-top: 0px;
+    font-size: 1.3rem;
+    color: gray;
+    background-color: #50DCCA;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    
+}
+
+.continerprograms{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.yearprogram{
+    margin-left: 100px;
+    transform: translateY(-40px);
+}
+
+
+/* SUBJECTS */
+
+.centerSubjects{
+    width: 290px;
+    height: 300px;
+    transform: translateY(-120px);
+    margin-left: -75px;
+
+}
+
+
+/* PROFILES */
+
+
+.nameProfiles{
+    width: 130px;
+    height: 130px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.42),rgba(80, 216, 204, 0.4113),rgba(82, 171, 221, 0.1932),rgba(80, 220, 202, 0.42));
+    margin-top: 30px;
+}
+
+.programImage{
+    width: 290px;
+    height: 220px;
+    transform: translateY(-80px);
+    margin-left: 100px;
+}
+
+
+
+/* CLASSROOM*/
+
+.classImage{
+    margin-left: -70px;
+    width: 250px;
+    height: 220px;
+    transform: translateY(-80px);
+}
+
+
+/* CREATCLASS */
+.h5{
+    color: rgb(31, 119, 182) ;
+    font-size: 1.2rem;
+}
+
+.icon{
+    width: 30px;
+    height: 40px;
+    margin-top: 20px;
+    
+    
+}
+.span{
+    color: rgb(31, 119, 182);
+    margin-left: 80px;
+    font-size: 0.8rem;
+    margin-top: -32px;
+    
+    
+}
+.inputNumber{
+    width: 30px;
+    height: 10px;
+    background-color: #50DCCA;
+    margin-left: 370px;
+    transform: translateY(-50px);
+    
+}
+.button{
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    color: black;
+    margin-top: 50px;
+    border: 1px solid rgb(31, 119, 182);
+    border-radius: 5px;
+    margin-right: 50px;
+    width: 80px;
+    height: 30px;
+    margin-bottom: 50px;
+
+}
+.button:hover{
+    background-color: rgb(31, 119, 182);
+    color: white;   
+}
+
+
+/* First  */
+.bb{
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(182, 181, 181);
+    color: black;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 50px;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 50px;
+
+}
+.bb:hover{
+    background-color: rgb(31, 119, 182);
+    color: white;   
+}
+.allcircle{
+    justify-content: center;
+    text-align: center;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   background-color:rgba(80, 99, 220, 0.5);
+    display: inline-flex;
+   
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+
+/* CONTACT */
+
+.contactName{
+    width: 900px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+
+}
+
+
+.contactimag{
+    margin-left: 400px;
+    margin-bottom: 70px;
+}
+
+
+/* ABOUT */
+.about{
+    font-size: 1.1rem;
+    margin-bottom: 100px;
+}
+
+
+/* CREAE PROFILE */
+
+.profileGRIDE{
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+
+}
+
+.primg{
+    width: 200px;
+    height: 200px;
+    margin-top: 90px;
+    margin-left: -120px;
+}
+
+
+.h22{
+    color: rgb(80, 99, 220);
+    margin-top: 120px;
+}
+
+@media (max-width: 800px){
+    .contain{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-gap: 20px;
+    }  
+    .input{
+        margin: 0px;
+    }
+    .continerprograms{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-gap: 30px;
+    }
+    .programImage{
+        width: 170px;
+        height: 130px;
+        margin-bottom: 50px;
+        margin-left: -10px;
+    }
+    .classImage{
+        width: 170px;
+        height: 130px;
+        margin-bottom: 50px;
+    }
+
+    .centerSubjects{
+        width: 170px;
+        height: 130px;
+        margin-top: 30px;
+    }
+    .contactimag{
+        margin-left: 160px;
+    }
+    .contactName{
+        width: 700px;
+        margin-bottom: 30px;
+        display: grid;
+        grid-template-columns: 1fr ;
+    
+    }
+
+
+    .about{
+        font-size: 0.8rem;
+    }
+
+
+    .h22{
+        font-size: 0.9rem;
+        margin-top: 50px;
+    }
+}

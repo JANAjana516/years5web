@@ -1,0 +1,134 @@
+
+body{
+    background-color: aliceblue;
+    margin: 0;
+
+}
+
+.home{
+    
+    background-image: linear-gradient(rgba(82, 171, 221, 0.2625),rgba(82, 171, 221, 0.3375), rgba(102, 179, 223, 0.1425));
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    padding: 70px 0;
+    margin-top: 5px;
+}
+.h1{
+   margin-top:-50px;
+   color:rgb(31, 119, 182) ;
+   margin-left:-100px;
+}
+.h2{
+    color:rgb(31, 119, 182) ;
+    margin-left: -300px;
+    font-size: 2rem;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+ .center{
+    width: 300px;
+    height: 320px;
+    transform: translateY(-130px);
+    
+
+}
+.container{
+
+    max-width: 1100px;
+    height: 100%;
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 90px;
+    margin-bottom: 30px;
+    margin-top: -60px;
+}
+.card{
+    width: 70%;
+    background-color: white;
+    border-radius: 20px ;
+    border: 3px solid rgb(31, 119, 182) ;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.5) ,0 6px 20px 0 rgba(0, 0, 0, 0.25); */
+    position: relative;
+    margin: auto;
+    display: inline-block;
+    margin-left: 200px;
+}
+.card figure{
+    width: 220px;
+    height: 170px ;
+    margin: auto;
+}
+
+.card figure .photo{
+    width: 320px;
+    height: 150px;
+    margin-left: -50px;
+}
+.card figure img{
+    border-radius: inherit;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    transform: translateY(-60px);
+}
+
+.first{
+    color: rgb(31, 119, 182);
+    font-size: large;
+    transform: translateY(-30px);
+    margin-left: 30px;
+    
+}
+.link{
+
+    text-decoration: none;
+    
+}
+
+h4{
+    transform: translateY(-30px);
+    margin: 1.5rem;
+    line-height: 1.5;
+    color: black;
+    
+}
+h4:hover{
+    color: grey;
+   
+}
+
+@media (max-width: 800px) {
+  .home h1{
+    font-size: 1rem;
+  }
+  .h2{
+    margin-left: -150px;
+    font-size: 1rem;
+  }
+  .container{
+  
+    max-width: 1100px;
+    height: 100%;
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-gap: 90px;
+    margin-bottom: 30px;
+}
+.card{
+    margin-left: 100px;
+}
+ 
+  }

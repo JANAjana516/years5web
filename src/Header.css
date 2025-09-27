@@ -1,0 +1,86 @@
+
+ nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 90px;
+    padding: 0 90px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 10px 1px rgb(31, 119, 182);
+    background-color: #cbe6f5;
+ 
+  }
+  .navv{
+    text-decoration: none;
+    color: rgb(31, 119, 182);  
+  }
+  .logo{
+    margin-right:20rem;
+    color: rgb(31, 119, 182); 
+    font-size:2rem;
+    font-weight:700; 
+  }
+  .navbar-menu-container {
+    display: none;
+  }
+
+  .navbar-links-container .navv{
+    margin-right: 3rem;
+    text-decoration: none;
+    color: rgb(31, 119, 182); 
+    font-size: 1.2rem;
+    font-weight:500;
+  }
+  
+
+  .active span{
+    color: rgb(28, 163, 246);
+  }
+  .navv:hover{
+    color: rgb(28, 163, 246); 
+  
+  }
+  
+  
+  @media (max-width: 1000px) {
+    .navbar-links-container .navv {
+      margin-right: 1rem;
+      font-size: 1rem;
+    }
+    .logo{
+      margin-right: 11rem;
+    }
+  
+  }
+  @media (max-width: 800px) {
+    .nav-logo-container {
+      max-width: 140px;
+    }
+    .navbar-links-container {
+      display: none;
+    }
+    .navbar-menu-container {
+      display: flex;
+      color: #5063DC;
+    }
+    .logo{
+      margin-right: 8rem;
+      font-size: 1.5rem;
+    }
+    
+  }
+  
+  @media (max-width: 800px) {
+  
+   
+    .footer-wrapper {
+        flex-direction: column;
+      }
+      .footer-section-two {
+        flex-direction: column;
+        margin-top: 2rem;
+      }
+      .footer-section-columns {
+        margin: 1rem 0rem;
+      }
+  }
